@@ -15,6 +15,7 @@ import pyemu
 model_ws = os.path.join('base_model_files')
 print(os.listdir(model_ws))
 
+print("This is the line just added")
 
 mf = flopy.modflow.Modflow.load('freyberg.nam', model_ws = model_ws, verbose=True)
 
